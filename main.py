@@ -24,14 +24,15 @@ def main():
     start = True
     while start == True:
         print("Hello World")
+        #rest of code goes here
+
+
+        #this happens when code ends
         print("Continue?(Y/N)")
         cont = input()
-        if cont == "Y":
-            start = True
-        elif cont == "N":
+        if cont != "Y":
             start = False
-        else:
-            print("??")
+            print("Goodbye World!")
 
 if __name__ == "__main__":
     main()
