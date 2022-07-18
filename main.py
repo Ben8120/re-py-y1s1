@@ -1,6 +1,3 @@
-from audioop import mul
-
-
 def test():
     print("Test")
 
