@@ -14,10 +14,11 @@ def division(n1, n2):
     print(f"Division of both numbers are: {n1/n2}")
 
 def main():
-    sum(5,7)
-    minus(7,5)
-    multiply(5,5)
-    division(5,5)
+    thisList = ["apple", "orange", "mango"]
+    for currentList in thisList:
+        print(currentList)
+    thisList.append("starfruit")
+    print(thisList)
 
 if __name__ == "__main__":
     main()
