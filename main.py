@@ -24,9 +24,6 @@ def listExample():
     print(thisList)
 
 def sumX():
-    #empty list
-    #append to list while true
-    #give sum
     sumList = []
     total = 0
     cont = True
