@@ -13,12 +13,25 @@ def multiply(n1, n2):
 def division(n1, n2):
     print(f"Division of both numbers are: {n1/n2}")
 
-def main():
+def listExample():
     thisList = ["apple", "orange", "mango"]
     for currentList in thisList:
         print(currentList)
     thisList.append("starfruit")
     print(thisList)
+
+def main():
+    start = True
+    while start == True:
+        print("Hello World")
+        print("Continue?(Y/N)")
+        cont = input()
+        if cont == "Y":
+            start = True
+        elif cont == "N":
+            start = False
+        else:
+            print("??")
 
 if __name__ == "__main__":
     main()
