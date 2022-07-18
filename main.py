@@ -40,11 +40,19 @@ def sumX():
     print(f'sum of these numbers are: {total}')
 
 def main():
+    task = 0
     start = True
     while start == True:
-        print("Hello World")
+        print('-------------------------------------------------------')
+        print("Hello World! Welcome to Ben's pointless python program!")
+        print('-------------------------------------------------------')
+        print('What would you like to do?\n 1. Sum X (add as much number as possible)')
         #rest of code goes here
-        sumX()
+        task = int(input())
+        if task == 1:
+            sumX()
+        else:
+            print("What is that?")
 
         #this happens when code ends
         print("Continue?(Y/N)")
