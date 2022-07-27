@@ -23,6 +23,7 @@ def listExample():
     thisList.append("starfruit")
     print(thisList)
 
+#enhance this to continue entering numbers until a non-number is added
 def sumX():
     sumList = []
     total = 0
@@ -46,11 +47,16 @@ def main():
         print('-------------------------------------------------------')
         print("Hello World! Welcome to Ben's pointless python program!")
         print('-------------------------------------------------------')
-        print('What would you like to do?\n 1. Sum X (add as much number as possible)')
+        print('What would you like to do?\n 1. Sum X (add as much number as possible)\n 2. Minus two numbers')
         #rest of code goes here
         task = int(input())
         if task == 1:
             sumX()
+        if task == 2:
+            print("Enter two numbers:")
+            num1 = int(input())
+            num2 = int(input())
+            minus(num1, num2)
         else:
             print("What is that?")
 
