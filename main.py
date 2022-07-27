@@ -1,6 +1,3 @@
-from operator import truediv
-
-
 def test():
     print("Test")
 
