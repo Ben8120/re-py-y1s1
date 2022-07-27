@@ -45,6 +45,7 @@ def main():
         print("Hello World! Welcome to Ben's pointless python program!")
         print('-------------------------------------------------------')
         print('What would you like to do?\n 1. Sum X (add as much number as possible)\n 2. Minus two numbers')
+        print(' 0. exit program')
         #rest of code goes here
         task = int(input())
         if task == 1:
@@ -54,6 +55,10 @@ def main():
             num1 = int(input())
             num2 = int(input())
             minus(num1, num2)
+        
+        if task == 0:
+            print('Goodbye World!')
+            break
         else:
             print("What is that?")
 
